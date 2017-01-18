@@ -1,0 +1,5 @@
+eureka:
+  client:
+    serviceUrl:
+        defaultZone: http://localhost:8010/eureka/
+    fetchRegistry: false       #为true时，可以启动，但报异常：Cannot execute request on any known server
